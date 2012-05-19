@@ -1,3 +1,4 @@
+require "sinatra/base"
 require "view_helpers/version"
 
 module Sinatra
@@ -62,6 +63,6 @@ module Sinatra
     end
   end
 
-  helpers ViewHelpers
+  register ViewHelpers
 end
 
