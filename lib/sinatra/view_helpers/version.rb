@@ -1,6 +1,6 @@
 module Sinatra
   module ViewHelpers
-    VERSION = '0.1.0' unless const_defined?(:VERSION)
+    VERSION = '0.1.2' unless const_defined?(:VERSION)
 
     def self.version
       VERSION
