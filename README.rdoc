@@ -29,7 +29,7 @@ in your sub-classed Sinatra app:
   
   class YourApp < Sinatra::Base
     
-    register Sinatra::Viewhelpers
+    register Sinatra::ViewHelpers
     
   end
 
