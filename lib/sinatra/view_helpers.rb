@@ -1,5 +1,5 @@
 require "sinatra/base"
-require "view_helpers/version"
+require "sinatra/view_helpers/version"
 
 module Sinatra
   module ViewHelpers
