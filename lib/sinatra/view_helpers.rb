@@ -32,7 +32,7 @@ module Sinatra
         if respond_to?(:block_is_haml?) && block_is_haml?(content)
           capture_haml(*args, &content)
         else
-          content.call(*args)
+          content
         end
       end.join if view_content[section.to_sym]
     end
